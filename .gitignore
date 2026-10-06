@@ -1,0 +1,41 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+
+# Generated vector database and ingestion output
+/db/chroma_db/
+/chunks_export.json
+/chunks_output.json
+/elements_output.json
+/run_ingestion_output.json
+/separated_content_check.json
+
+# Logs and editor/OS files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
